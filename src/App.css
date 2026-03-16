@@ -1,0 +1,134 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.MuiTableRow-root {
+  font-size: 2px; /* Altere o valor conforme necessário */
+}
+
+@import "react-quill/dist/quill.snow.css";
+
+/* Estilos customizados para react-draft-wysiwyg */
+.rdw-editor-wrapper {
+  @apply bg-white border border-gray-200 rounded-lg;
+}
+
+.rdw-editor-toolbar {
+  @apply bg-gray-50 border-b border-gray-200 p-2;
+}
+
+.rdw-option-wrapper {
+  @apply border border-gray-300 rounded bg-white hover:bg-gray-100 transition-colors;
+}
+
+.rdw-option-active {
+  @apply bg-blue-100 border-blue-300;
+}
+
+.rdw-dropdown-wrapper {
+  @apply border border-gray-300 rounded bg-white;
+}
+
+.rdw-dropdown-selectedtext {
+  @apply text-gray-700;
+}
+
+.rdw-dropdown-carettoopen,
+.rdw-dropdown-carettoclose {
+  @apply text-gray-500;
+}
+
+.rdw-dropdown-optionwrapper {
+  @apply bg-white border border-gray-200 rounded shadow-lg;
+}
+
+.rdw-dropdownoption-default {
+  @apply hover:bg-gray-100 transition-colors;
+}
+
+.rdw-dropdownoption-highlighted {
+  @apply bg-blue-100;
+}
+
+.rdw-editor-main {
+  @apply min-h-[300px] p-4;
+}
+
+.DraftEditor-root {
+  @apply text-gray-900;
+}
+
+.DraftEditor-editorContainer {
+  @apply relative;
+}
+
+.DraftEditor-placeholder {
+  @apply text-gray-400;
+}
+
+.public-DraftEditor-content {
+  @apply outline-none;
+}
+
+/* Estilos para diferentes tipos de bloco */
+.public-DraftStyleDefault-block {
+  @apply mb-2;
+}
+
+.public-DraftStyleDefault-orderedListItem,
+.public-DraftStyleDefault-unorderedListItem {
+  @apply ml-4 mb-1;
+}
+
+/* Estilos para links */
+.rdw-editor-main a {
+  @apply text-blue-600 hover:text-blue-800 underline;
+}
+
+/* Estilos para código */
+.rdw-editor-main code {
+  @apply bg-gray-100 px-1 py-0.5 rounded text-sm font-mono;
+}
+
+.rdw-editor-main pre {
+  @apply bg-gray-100 p-3 rounded overflow-x-auto;
+}
+
+/* Estilos para blockquotes */
+.rdw-editor-main blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic text-gray-700 my-4;
+}
+
+/* Estilos para imagens */
+.rdw-image-modal {
+  @apply bg-white border border-gray-200 rounded-lg shadow-lg;
+}
+
+.rdw-image-modal-header {
+  @apply bg-gray-50 border-b border-gray-200 p-3;
+}
+
+.rdw-image-modal-header-option {
+  @apply px-3 py-1 border border-gray-300 rounded hover:bg-gray-100 transition-colors;
+}
+
+.rdw-image-modal-header-label {
+  @apply text-gray-700 font-medium;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .rdw-editor-toolbar {
+    @apply flex-wrap;
+  }
+  
+  .rdw-option-wrapper {
+    @apply text-sm;
+  }
+}
+
+

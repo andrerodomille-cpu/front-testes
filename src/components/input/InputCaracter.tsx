@@ -1,0 +1,68 @@
+import React, {useState} from "react";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { AlertCircle } from "lucide-react";
+
+type EditableFieldProps = {
+  id: string;
+  value: string | number;
+  label: string;
+  colSpan?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
+  obrigatorio?: boolean;
+  readOnly?: boolean;
+  onChange: (id: string, newValue: string) => void;
+};
+
+export const InputCaracter: React.FC<EditableFieldProps> = ({
+  id,
+  value,
+  label,
+  colSpan = 1,
+  onChange,
+  obrigatorio = false,
+  readOnly=false
+}) => {
+    const [error, setError] = useState(false);
+    const colSpanClass = `ml-1 col-span-${colSpan}`;
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const newValue = e.target.value;
+        const isEmpty = newValue.trim() === "";
+
+        if (obrigatorio) {
+            setError(isEmpty);
+        }
+
+        onChange(id, newValue);
+    };
+
+
+    return (
+      <div key={id} className={colSpanClass}>
+          <Label
+              htmlFor={id}
+              className=" text-xs text-gray-600 dark:text-gray-200"
+          >
+              {label} {obrigatorio && <span className="text-red-500">*</span>}
+          </Label>
+          <div className="relative h-7">
+              <Input
+                readOnly={readOnly}
+                  id={id}
+                  defaultValue={String(value)}
+                  className={`!text-xs py-1 border ${error ? "border-red-500" : "border-gray-300 dark:border-gray-700"
+                    } bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 rounded-t rounded-b h-7 
+                    focus:outline-none focus:border-gray-500 hover:bg-gray-200 dark:hover:bg-gray-500`}
+                  onChange={handleChange}
+              />
+          </div>
+          {error && obrigatorio && (
+              <div className="flex items-center gap-1 dark:text-red-300 text-red-600 text-[12px] mt-1">
+                  <AlertCircle size={12} className="min-w-[12px]" />
+                  <span>Este campo é obrigatório.</span>
+              </div>
+          )}
+      </div>
+  );
+};
+
