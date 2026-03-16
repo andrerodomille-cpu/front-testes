@@ -23,13 +23,6 @@ const SplashScreen: React.FC = () => {
         </div>
       </div>
 
-      {/* 🔹 Rodapé */}
-      <footer className="text-sm text-center py-4 text-gray-600 dark:text-gray-400">
-        © Copyright Cera Ingleza - {" "}
-        <a className="text-blue-600 dark:text-blue-400 hover:underline">
-          {t("splash.protegendo")}
-        </a>
-      </footer>
     </div>
   );
 };

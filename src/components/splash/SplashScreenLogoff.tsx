@@ -36,14 +36,6 @@ const SplashScreenLogoff: React.FC = () => {
           <div className={`w-12 h-12 border-8 ${theme === "dark" ? "border-white" : "border-blue-500"} border-t-transparent rounded-full animate-spin`} />
         </div>
       </div>
-
-      {/* 🔹 Rodapé */}
-      <footer className={`text-sm text-center py-4 ${theme === "dark" ? "text-gray-400" : "text-gray-600"}`}>
-        © Copyright Cera Ingleza - {" "}
-        <a className="text-blue-600 dark:text-blue-400 hover:underline">
-          {t("splash.protegendo")}
-        </a>
-      </footer>
     </div>
   );
 };

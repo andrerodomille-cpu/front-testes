@@ -1,5 +1,5 @@
 {
-  "plataforma": "Formulare Platform",
+  "plataforma": "Tests Platform",
   "categorias": {
     "gestao": "Management",
     "indicadores": "Indicators",
@@ -97,7 +97,6 @@
     "usuario": "User",
     "email": "E-mail",
     "cargo": "Position",
-    "newEnterprise": "Access to Formulare",
     "acessoLiberado": "Enterprise System",
     "administrador": "Platform Administrator",
     "gestorOcorrencias": "Incident System Manager",
@@ -116,7 +115,6 @@
     "dataultimoacesso": "Last access date",
     "paginaincialtitulo": "Operational efficiency begins with intelligent prevention.",
     "paginaincialsubtitulo": " Optimize your operations, reduce losses, and increase performance — all in one platform.",
-    "botaotitulo": "Access the Formulare Platform Modules",
     "selecionedata": "Select date",
     "id_caixa": "Cashier",
     "abertura_data": "Opening Date",
@@ -372,7 +370,6 @@
     "verifiquecamposobrigatorios": "Check required fields (marked with *)",
     "reiniciarsenha": "Reset Password",
     "trocarsenhaproximologin": "Change password on next login",
-    "acessoweb": "Formulare Platform",
     "exclusaousuario": "Deactivate User",
     "confirmar": "Confirm",
     "confirmaalterarsenha": "Confirm that the user will need to change the password on next login?",
@@ -473,7 +470,7 @@
   },
   "login": {
     "bemvindo": "Welcome",
-    "subTitulo": "Log in to access the Formulare Platform",
+    "subTitulo": "Log in to access the Platform",
     "email": "Email",
     "informeusuario": "Enter your Username",
     "senha": "Password",
@@ -514,7 +511,7 @@
     "acessos": "Access Logs"
   },
   "home": {
-    "titulo": "Welcome to the Formulare Platform",
+    "titulo": "Welcome to the Platform",
     "ajudar": "",
     "browse": "Browse products and services",
     "search": "Search",

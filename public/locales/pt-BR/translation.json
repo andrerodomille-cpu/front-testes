@@ -1,5 +1,5 @@
 {
-  "plataforma": "Plataforma Formulare",
+  "plataforma": "Plataforma",
   "categorias": {
     "gestao": "Gestão",
     "indicadores": "Indicadores",
@@ -156,7 +156,7 @@
     "usuario": "Usuário",
     "email": "E-mail",
     "cargo": "Cargo",
-    "newEnterprise": "Acesso ao Formulare",
+    "newEnterprise": "Acesso",
     "acessoLiberado": "Sistema Enterprise",
     "administrador": "Administrador da Plataforma",
     "gestorOcorrencias": "Gestor do Sistema de Ocorrências",
@@ -175,7 +175,7 @@
     "dataultimoacesso": "Data do último acesso",
     "paginaincialtitulo": "Eficiência operacional começa com prevenção inteligente.",
     "paginaincialsubtitulo": " Otimize suas operações, reduza perdas e aumente a performance — tudo em uma única plataforma.",
-    "botaotitulo": "Acesse os Módulos da Plataforma Formulare",
+    "botaotitulo": "Acesse os Módulos da Plataforma",
     "selecionedata": "Selecione a data",
     "id_caixa": "Caixa",
     "abertura_data": "Dt. de Abertura",
@@ -432,7 +432,7 @@
     "verifiquecamposobrigatorios": "Verifique os campos obrigatórios (marcados com *)",
     "reiniciarsenha": "Reiniciar Senha",
     "trocarsenhaproximologin": "Alterar a senha no próximo login",
-    "acessoweb": "Plataforma Formulare",
+    "acessoweb": "Plataforma",
     "exclusaousuario": "Desativar Usuário",
     "confirmar": "Confirmar",
     "confirmaalterarsenha": "Confirma que o usuário precisará alterar a senha no próximo login?",
@@ -538,7 +538,7 @@
   },
   "login": {
     "bemvindo": "Bem Vindo",
-    "subTitulo": "Faça login para acessar a Plataforma Formulare",
+    "subTitulo": "Faça login para acessar a Plataforma",
     "email": "E-mail",
     "informeusuario": "Informe o seu Usuário",
     "senha": "Senha",
@@ -563,7 +563,7 @@
     "salvarsenha": "Salvar senha",
     "senhadefinida": "Senha alterada com sucesso",
     "criarsenha": "Este é o seu primeiro acesso",
-    "subcriarsenha": "Crie uma senha para acessar a Plataforma Formulare",
+    "subcriarsenha": "Crie uma senha para acessar a Plataforma",
     "senhacriada": "Senha criada com sucesso"
   },
   "splash": {
@@ -589,7 +589,7 @@
     "acessos": "Acessos"
   },
   "home": {
-    "titulo": "Bem vindo à Plataforma Formulare",
+    "titulo": "Bem vindo à Plataforma",
     "ajudar": "",
     "browse": "Navegue por produtos e serviços",
     "search": "Procurar",

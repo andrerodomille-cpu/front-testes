@@ -171,14 +171,7 @@ const Home: React.FC = () => {
       <header className={`sticky top-0 z-50 ${headerColor} shadow-lg`}>
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <img
-                src={`${import.meta.env.BASE_URL}assets/cera.png`}
-                alt="Cera Ingleza Platform"
-                className="h-10"
-              />
 
-            </div>
             <div className="hidden md:flex flex-1 max-w-md ml-8">
               <div className="relative w-full">
                 <Search className="absolute left-3 top-1/2 transform -trangray-y-1/2 h-4 w-4 text-gray-400" />
