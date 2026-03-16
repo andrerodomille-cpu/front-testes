@@ -19,6 +19,9 @@ import CidadePage from "@/pages/CidadePage";
 import AnaliseOperadoresPage from "@/pages/AnaliseOperadoresPage";
 import DashboardRiscoOperacional from "@/scenes/riscos-operacionais/dashboardRiscoOperacional";
 import AnaliseOperadoresDashboard from "@/scenes/analise-operadores/components/analise-operadores-dashboard";
+import AnaliseAlertas from "@/components/analise-alertas";
+import AnalisePlanoAcao from "@/components/analise-plano-acao/analise-plano-acao";
+
 
 function AppRouter(): JSX.Element {
   return (
@@ -37,6 +40,12 @@ function AppRouter(): JSX.Element {
       <Route path="/analise-operadores" element={<AnaliseOperadoresPage />} />
       <Route path="/risco-operacional" element={<DashboardRiscoOperacional />} />
       <Route path="/risco-operacional-avancado" element={<AnaliseOperadoresDashboard />} />
+      <Route path="/analise-alertas" element={<AnaliseAlertas />} />
+      <Route path="/analise-plano-acao" element={<AnalisePlanoAcao />} />
+
+
+      
+      
 
     </Routes>
   );

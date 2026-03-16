@@ -100,49 +100,49 @@ export default function DashboardOperadoresPDVIA({
 
 
         <Tabs defaultValue="riscos" className="space-y-4">
-  <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 rounded-2xl border border-gray-200 bg-gray-100 p-1 dark:border-slate-800 dark:bg-slate-900">
-    
-    <TabsTrigger
-      value="riscos"
-      className="rounded-xl text-gray-600 dark:text-slate-300
+          <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 rounded-2xl border border-gray-200 bg-gray-100 p-1 dark:border-slate-800 dark:bg-slate-900">
+
+            <TabsTrigger
+              value="riscos"
+              className="rounded-xl text-gray-600 dark:text-slate-300
       data-[state=active]:bg-blue-600
       data-[state=active]:text-white
       data-[state=active]:shadow-sm"
-    >
-      Riscos
-    </TabsTrigger>
+            >
+              Riscos
+            </TabsTrigger>
 
-    <TabsTrigger
-      value="fora-curva"
-      className="rounded-xl text-gray-600 dark:text-slate-300
+            <TabsTrigger
+              value="fora-curva"
+              className="rounded-xl text-gray-600 dark:text-slate-300
       data-[state=active]:bg-blue-600
       data-[state=active]:text-white
       data-[state=active]:shadow-sm"
-    >
-      Fora da curva
-    </TabsTrigger>
+            >
+              Fora da curva
+            </TabsTrigger>
 
-    <TabsTrigger
-      value="eficiencia"
-      className="rounded-xl text-gray-600 dark:text-slate-300
+            <TabsTrigger
+              value="eficiencia"
+              className="rounded-xl text-gray-600 dark:text-slate-300
       data-[state=active]:bg-blue-600
       data-[state=active]:text-white
       data-[state=active]:shadow-sm"
-    >
-      Eficiência
-    </TabsTrigger>
+            >
+              Eficiência
+            </TabsTrigger>
 
-    <TabsTrigger
-      value="detalhes"
-      className="rounded-xl text-gray-600 dark:text-slate-300
+            <TabsTrigger
+              value="detalhes"
+              className="rounded-xl text-gray-600 dark:text-slate-300
       data-[state=active]:bg-blue-600
       data-[state=active]:text-white
       data-[state=active]:shadow-sm"
-    >
-      Detalhes
-    </TabsTrigger>
+            >
+              Detalhes
+            </TabsTrigger>
 
-  </TabsList>
+          </TabsList>
 
           <TabsContent value="riscos">
             <RiscosTab
